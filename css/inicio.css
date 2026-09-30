@@ -1,0 +1,10 @@
+.bienvenida p {
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .banner-cta .boton-ancho {
+    display: inline-block;
+    width: auto;
+  }
+}

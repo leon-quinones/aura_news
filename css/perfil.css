@@ -1,0 +1,97 @@
+.encabezado-perfil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.encabezado-perfil .etiqueta {
+  padding: 6px 10px;
+  border-radius: 12px;
+  background-color: var(--azul-claro);
+  font-size: 11px;
+}
+
+.tarjeta-usuario {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid var(--borde);
+  border-radius: var(--radio-grande);
+  background-color: var(--blanco);
+  box-shadow: var(--sombra-tarjeta);
+}
+
+.avatar-grande {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border: 2px solid var(--azul);
+  font-family: var(--fuente-titulos);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.nombre-usuario {
+  font-family: var(--fuente-texto);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.miembro-desde {
+  font-size: 13px;
+  color: var(--texto-gris);
+}
+
+.subtitulo {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.seccion-sin-arriba {
+  padding-top: 0;
+}
+
+.nota-formulario {
+  margin-top: 6px;
+}
+
+.texto-categorias {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.seccion .aviso {
+  margin-top: 14px;
+}
+
+.botones-perfil {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.enlace-mis-temas {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.boton-con-icono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.botones-perfil .oculto {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .contenedor-perfil {
+    max-width: 700px;
+  }
+}

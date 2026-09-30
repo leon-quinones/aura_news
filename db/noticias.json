@@ -1,0 +1,390 @@
+[
+  {
+    "id": 1,
+    "titulo": "Gemini 4 entra en post-entrenamiento y Google quiere lanzarlo «lo antes posible»",
+    "resumen": "Koray Kavukcuoglu confirma que Gemini 4 está en la fase final de ajuste y podría llegar bastante antes de que termine 2026.",
+    "contenido": [
+      "Google ha confirmado que su próximo modelo insignia, Gemini 4, está cada vez más cerca. Koray Kavukcuoglu, máximo responsable de Google DeepMind, explicó durante la cumbre AI Agenda Live organizada por The Information que el modelo ya ha entrado en la fase de post-entrenamiento, la etapa en la que se refina su comportamiento, se realizan pruebas de seguridad y se añaden las salvaguardas necesarias antes de abrirlo al público.",
+      "Según el directivo, la intención de la compañía es publicar una primera versión del modelo post-entrenado lo antes posible, porque los resultados internos son prometedores. Gemini 4 ya se está probando dentro de la empresa como motor de Antigravity, la herramienta de desarrollo con agentes de Google. Kavukcuoglu no dio una fecha concreta, aunque dijo esperar que el lanzamiento llegue mucho antes de que acabe el año.",
+      "El anuncio llega después de que Anthropic y OpenAI actualizaran sus modelos principales en las últimas semanas. Ante la idea de que Google se ha quedado atrás, Kavukcuoglu defendió a su equipo y aseguró que la empresa seguirá en la frontera. También reconoció que Google dio un paso atrás con la versión Pro para centrarse en los modelos Flash, como el reciente Gemini 3.8 Flash, antes de volcarse en Gemini 4."
+    ],
+    "categoria": "Modelos",
+    "etiquetas": [
+      "Gemini 4",
+      "DeepMind",
+      "Modelos de lenguaje"
+    ],
+    "fuente": "9to5Google",
+    "autor": "Ben Schoon",
+    "fecha": "2026-09-24",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-1.jpg",
+    "imagenAlt": "Logotipo de Gemini con forma de estrella multicolor sobre fondo claro",
+    "imagenCredito": "9to5Google",
+    "urlOriginal": "https://9to5google.com/2026/09/24/google-says-gemini-4-release-is-coming-as-soon-as-possible/",
+    "destacada": true
+  },
+  {
+    "id": 2,
+    "titulo": "Google DeepMind crea un instituto para abrir el debate sobre la AGI",
+    "resumen": "El DeepMind Institute, dirigido por Shane Legg, James Manyika y Demis Hassabis, publica ensayos sobre seguridad, economía y regulación de la IA.",
+    "contenido": [
+      "Investigadores de Google y Google DeepMind han puesto en marcha el DeepMind Institute, una iniciativa pensada para impulsar la conversación pública sobre la inteligencia artificial general (AGI). Sus directores son el cofundador de DeepMind Shane Legg, que ejerce además como editor, el ejecutivo de Google James Manyika y el presidente de Google DeepMind, Demis Hassabis. El objetivo es mostrar las distintas posturas que existen dentro y fuera de la empresa.",
+      "La primera colección reúne cuatro ensayos sobre políticas económicas ante una posible disrupción de la AGI, la preservación de un razonamiento de los modelos legible por humanos, principios para el bienestar humano y un marco para evaluar modelos de frontera. Rohin Shah y Anca Dragan, investigadores de seguridad, advierten de que la transparencia de los modelos se está reduciendo y piden que desarrolladores y reguladores afronten ese problema de forma directa.",
+      "En otro de los textos, Hassabis propone crear en Estados Unidos un organismo de estándares que evalúe los modelos más avanzados. Al principio, las empresas enviarían sus modelos de forma voluntaria hasta 30 días antes del lanzamiento. Si el sistema demuestra su eficacia, superar esas pruebas podría llegar a ser obligatorio. El organismo acabaría diseñando evaluaciones independientes y no divulgadas para evitar que los laboratorios adapten sus modelos a pruebas ya conocidas."
+    ],
+    "categoria": "Regulación",
+    "etiquetas": [
+      "AGI",
+      "DeepMind",
+      "Seguridad de la IA",
+      "Demis Hassabis"
+    ],
+    "fuente": "TechCrunch",
+    "autor": "Aditya Mehta",
+    "fecha": "2026-09-17",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-2.jpg",
+    "imagenAlt": "Ilustración de un cerebro de neón azul sobre una pared de ladrillo",
+    "imagenCredito": "Getty Images / TechCrunch",
+    "urlOriginal": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
+    "destacada": false
+  },
+  {
+    "id": 3,
+    "titulo": "Gemini 3.8 Live: conversaciones por voz más naturales y con razonamiento en tiempo real",
+    "resumen": "Google lanza Gemini 3.8 Live y 3.8 Live Extended Thinking, modelos de diálogo por voz que razonan, ven y ejecutan tareas sin cortar la charla.",
+    "contenido": [
+      "Google ha presentado Gemini 3.8 Live y Gemini 3.8 Live Extended Thinking, sus modelos de diálogo en directo más avanzados hasta la fecha. Ambos buscan que hablar con la IA resulte más fluido: pueden razonar sobre problemas complejos, interpretar el contexto visual en tiempo casi real y ejecutar tareas en segundo plano sin interrumpir la conversación. Están disponibles a través de la API de Gemini, Google Workspace y la aplicación Gemini.",
+      "La versión Extended Thinking está orientada a tareas empresariales exigentes. Según Google, ocupa el primer puesto del índice de calidad voz a voz de Artificial Analysis y lidera pruebas de ejecución de tareas con agentes como τ-Voice. Este modelo razona y habla al mismo tiempo: usa frases como «déjame comprobarlo» para confirmar que ha entendido la petición y narra el progreso de las tareas de varios pasos mientras las completa.",
+      "Por su parte, Gemini 3.8 Live destaca por su eficiencia de costes y por la preferencia de los usuarios, con un segundo puesto en Speech Agent Arena. Detecta y cambia automáticamente entre 97 idiomas en mitad de una conversación y puede llamar a herramientas y APIs mientras sigue charlando. Google lo muestra, por ejemplo, guiando la incorporación de empleados, jugando al ajedrez o convirtiendo bocetos en componentes de código."
+    ],
+    "categoria": "Modelos",
+    "etiquetas": [
+      "Gemini",
+      "Voz",
+      "Agentes",
+      "Workspace"
+    ],
+    "fuente": "Blog de Google",
+    "autor": "Tom Ouyang",
+    "fecha": "2026-09-15",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-3.jpg",
+    "imagenAlt": "Imagen promocional de Gemini 3.8 Live",
+    "imagenCredito": "Google",
+    "urlOriginal": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+    "destacada": false
+  },
+  {
+    "id": 4,
+    "titulo": "AlphaGenome Atlas: un mapa con el efecto de 9.000 millones de mutaciones del ADN humano",
+    "resumen": "DeepMind publica predicciones para cada posible cambio de una letra en el genoma humano, una herramienta gratuita para la investigación.",
+    "contenido": [
+      "Google DeepMind ha presentado AlphaGenome Atlas, una plataforma que contiene predicciones sobre el efecto de unos 9.000 millones de variantes de un solo nucleótido, es decir, todos los cambios de una letra posibles en el genoma humano. Según la compañía, es el catálogo más completo de cómo las mutaciones afectan a la biología molecular, y está disponible gratis para la investigación académica mediante un portal web sencillo de usar.",
+      "El atlas se basa en AlphaGenome, el modelo de IA que predice cómo influyen las variantes genéticas en los procesos biológicos. Al calcular de antemano sus predicciones a gran escala, DeepMind ofrece una visión global del genoma en lugar de análisis variante a variante. El conjunto de datos ocupa un petabyte, más de 30 veces el tamaño de la base de datos de AlphaFold, y también se puede consultar mediante una API y desde Google Antigravity.",
+      "Junto al atlas llega la puntuación AVI (AlphaGenome Variant Impact), que combina AlphaGenome y AlphaMissense en un único número para ordenar rápidamente las variantes según su posible impacto. Funciona tanto en el 2 % del genoma que codifica proteínas como en el 98 % restante. Colaboradores externos ya lo han usado para identificar y verificar variantes clave en enfermedades raras sin diagnóstico y en rasgos comunes."
+    ],
+    "categoria": "Ciencia",
+    "etiquetas": [
+      "AlphaGenome",
+      "DeepMind",
+      "Genómica",
+      "Biología"
+    ],
+    "fuente": "Google DeepMind",
+    "autor": "AlphaGenome Atlas team",
+    "fecha": "2026-09-08",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-4.webp",
+    "imagenAlt": "Visualización abstracta en tonos rosas y morados junto al título de AlphaGenome Atlas",
+    "imagenCredito": "Google DeepMind",
+    "urlOriginal": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+    "destacada": true
+  },
+  {
+    "id": 5,
+    "titulo": "WeatherNext 3 aprende de satélites en tiempo real para dar pronósticos cada hora",
+    "resumen": "El nuevo modelo meteorológico de Google ofrece previsiones horarias hasta cinco veces más nítidas y ya funciona en Search, Maps y Gemini.",
+    "contenido": [
+      "Google DeepMind y Google Research han presentado WeatherNext 3, su modelo global de predicción meteorológica más avanzado. A diferencia de muchos sistemas de IA, incluido su predecesor, no depende solo de simulaciones físicas que llegan con seis horas de retraso: aprende directamente de observaciones en tiempo real, como imágenes de satélites geoestacionarios y datos de estaciones meteorológicas. Así puede generar un nuevo pronóstico cada hora.",
+      "La mejora en detalle es notable. WeatherNext 3 representa variables como la temperatura y la humedad con una resolución de 5 kilómetros, frente a la cuadrícula de 25 kilómetros y los intervalos de seis horas de WeatherNext 2. En conjunto, Google calcula que ofrece una imagen del tiempo unas cinco veces más nítida, algo especialmente útil en costas, valles y montañas y en regiones con poca cobertura de alta resolución.",
+      "El modelo incluye además predicciones pensadas para las energías renovables, como la velocidad del viento a 100 metros de altura, la nubosidad y la radiación solar, datos clave para los operadores de la red eléctrica. También mejora la previsión de lluvias, uno de los puntos débiles de los modelos globales. WeatherNext 3 ya está integrado en Search, Gemini, Maps, Google Maps Platform y Google Cloud."
+    ],
+    "categoria": "Ciencia",
+    "etiquetas": [
+      "WeatherNext",
+      "DeepMind",
+      "Clima",
+      "Google Research"
+    ],
+    "fuente": "Blog de Google",
+    "autor": "The WeatherNext team",
+    "fecha": "2026-09-03",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-5.jpg",
+    "imagenAlt": "Imagen de portada de WeatherNext 3",
+    "imagenCredito": "Google",
+    "urlOriginal": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+    "destacada": false
+  },
+  {
+    "id": 6,
+    "titulo": "Gemini 3.8 Flash llega tres semanas después de su predecesor",
+    "resumen": "El nuevo modelo Flash mejora en programación, agentes y razonamiento, mantiene el precio introductorio y estrena una variante para ciberseguridad.",
+    "contenido": [
+      "Google ha empezado a desplegar Gemini 3.8 Flash apenas tres semanas después del lanzamiento anterior, su tercera actualización de la familia Flash en tres meses. La compañía lo describe como su modelo de uso general más inteligente, con mejoras claras frente a 3.7 Flash en ingeniería de software, tareas con agentes y razonamiento de varios pasos en campos especializados. Según Google, a menudo se acerca al rendimiento de modelos de frontera más caros.",
+      "En áreas profesionales como las finanzas o el derecho supera a su predecesor en pruebas como Vals Finance Agent V2 y el Legal Agent Benchmark de Harvey, y logra un 54,9 % en HLE-Verified. En tareas complejas se muestra más minucioso: encadena pasos de razonamiento y llama a herramientas de forma repetida, aunque eso puede suponer consumir más tokens en los niveles de esfuerzo más altos.",
+      "El precio introductorio se mantiene en 0,75 dólares por millón de tokens de entrada y 3,75 por millón de salida hasta el 31 de diciembre. El modelo ya está en la app Gemini para suscriptores de Google AI Pro y Ultra, en el Modo IA del buscador y en Google Sheets, además de en Antigravity, AI Studio y la API. Google también anunció Gemini 3.8 Flash Cyber para probadores de confianza."
+    ],
+    "categoria": "Modelos",
+    "etiquetas": [
+      "Gemini",
+      "Flash",
+      "Desarrolladores",
+      "Ciberseguridad"
+    ],
+    "fuente": "9to5Google",
+    "autor": "Abner Li",
+    "fecha": "2026-09-02",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-6.jpg",
+    "imagenAlt": "Logotipo de Gemini iluminado sobre un escenario oscuro",
+    "imagenCredito": "9to5Google",
+    "urlOriginal": "https://9to5google.com/2026/09/02/gemini-3-8-flash-launch/",
+    "destacada": true
+  },
+  {
+    "id": 7,
+    "titulo": "Google ampliará un 60 % sus oficinas en Taiwán para impulsar su infraestructura de IA",
+    "resumen": "Amin Vahdat destaca en SEMICON Taiwan el papel de los socios taiwaneses en el diseño de chips, refrigeración y centros de datos de Google.",
+    "contenido": [
+      "Google ampliará un 60 % su espacio de oficinas en Taiwán, según anunció Amin Vahdat, vicepresidente sénior y tecnólogo jefe de IA e infraestructura de la compañía, tras pronunciar el discurso inaugural de SEMICON Taiwan 2026 en Taipéi. Vahdat no dio cifras de inversión, contratación ni plazos, pero describió la isla como el mayor centro de ingeniería de hardware de Google fuera de Estados Unidos.",
+      "Según el directivo, gran parte del diseño y la fabricación del hardware de Google se realiza en Taiwán junto a empresas locales, que ya participan en el codiseño de sus sistemas de IA. La colaboración abarca el encapsulado avanzado, la refrigeración líquida y los sistemas de alta potencia, y Google negocia con varios socios la arquitectura de los racks y la fiabilidad de futuras generaciones de hardware.",
+      "Vahdat explicó que la demanda de cómputo crece quizá diez veces cada año y que atenderla exige rediseñar toda la pila tecnológica. Por eso Google trata el centro de datos entero como un único ordenador, diseñando a la vez edificios, energía, chips, redes y software. Añadió que el hardware debe planificarse con dos o tres años de antelación y que la energía es una de las grandes limitaciones."
+    ],
+    "categoria": "Hardware",
+    "etiquetas": [
+      "Infraestructura",
+      "Chips",
+      "Taiwán",
+      "Centros de datos"
+    ],
+    "fuente": "Focus Taiwan (CNA)",
+    "autor": "Chao Yen-hsiang",
+    "fecha": "2026-09-02",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-7.jpg",
+    "imagenAlt": "Amin Vahdat saluda junto al logotipo de Google en SEMICON Taiwan 2026",
+    "imagenCredito": "CNA / Focus Taiwan",
+    "urlOriginal": "https://focustaiwan.tw/business/202609020013",
+    "destacada": false
+  },
+  {
+    "id": 8,
+    "titulo": "DeepMind prueba la primera evaluación «doble ciego» de un modelo de IA de frontera",
+    "resumen": "Un entorno cifrado impide que Google vea las preguntas de los evaluadores y que estos accedan a los pesos del modelo Gemini.",
+    "contenido": [
+      "Google DeepMind ha anunciado un piloto que presenta como la primera evaluación doble ciego de un modelo de IA propietario de frontera. El objetivo es combatir la contaminación de los benchmarks, que ocurre cuando un modelo ya ha visto las preguntas del examen durante su entrenamiento y obtiene resultados inflados. Para ello, las pruebas externas se ejecutan dentro de una especie de caja criptográfica.",
+      "Hasta ahora, las evaluaciones externas obligaban a elegir: o los evaluadores entregaban sus preguntas, con el riesgo de que el proveedor las conociera, o el proveedor cedía los pesos de su modelo, arriesgando su propiedad intelectual. Con Confidential Space, parte de la computación confidencial de Google Cloud, se puede verificar criptográficamente que ninguno de los dos lados ve los datos del otro.",
+      "En el piloto participan el Instituto de Seguridad de IA de Singapur, OpenMined, AVERI y MLCommons, que han evaluado un modelo Gemini Flash Lite con pruebas confidenciales. DeepMind considera que el método será especialmente importante para evaluaciones sensibles, como las de ciberseguridad o las realizadas por gobiernos, y espera que ayude a construir sistemas de IA más seguros y en los que se pueda confiar."
+    ],
+    "categoria": "Investigación",
+    "etiquetas": [
+      "Evaluación",
+      "Seguridad de la IA",
+      "DeepMind",
+      "Google Cloud"
+    ],
+    "fuente": "Google DeepMind",
+    "autor": "William Isaac, Sol Messing y Kristian Lum",
+    "fecha": "2026-08-27",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-8.webp",
+    "imagenAlt": "Cubo translúcido con un candado junto al título del anuncio de evaluaciones doble ciego",
+    "imagenCredito": "Google DeepMind",
+    "urlOriginal": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+    "destacada": false
+  },
+  {
+    "id": 9,
+    "titulo": "Operation Blue Skies: IA para evitar las estelas de condensación en el Atlántico Norte",
+    "resumen": "Google participa con el Gobierno británico en el primer ensayo estatal para evitar estelas de aviones a escala de todo un espacio aéreo oceánico.",
+    "contenido": [
+      "Las estelas de condensación que dejan los aviones son nubes que se forman cuando el vapor de agua se condensa alrededor de las partículas del escape, y se estima que causan cerca de un tercio del impacto climático total de la aviación. Google anunció Operation Blue Skies, un proyecto con el Gobierno del Reino Unido y socios del sector para usar previsiones basadas en IA que ayuden a evitarlas.",
+      "Tras colaborar con aerolíneas como American Airlines, con controladores aéreos y con proveedores de software de planificación de vuelos, Google da el salto a una prueba coordinada en todo un corredor. El ensayo se hará en el espacio aéreo de Shanwick, en la mitad oriental del Atlántico Norte, que concentra aproximadamente el 5 % del calentamiento global causado por estelas.",
+      "El programa durará 30 meses e incluye dos pruebas operativas de unos cuatro meses cada una. Unos 10.000 vuelos al año cruzarán la zona durante las horas de ensayo y una pequeña parte se desviará ligeramente para no generar estelas muy contaminantes. Google UK participa sin ánimo de lucro, con una aportación en especie de 1,4 millones de libras en investigación, ingeniería y computación."
+    ],
+    "categoria": "Ciencia",
+    "etiquetas": [
+      "Clima",
+      "Aviación",
+      "Google Research",
+      "Sostenibilidad"
+    ],
+    "fuente": "Blog de Google",
+    "autor": "Paul Hodgson",
+    "fecha": "2026-08-18",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-9.jpg",
+    "imagenAlt": "Avión volando sobre un mar de nubes visto desde gran altitud",
+    "imagenCredito": "Google",
+    "urlOriginal": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-skies/",
+    "destacada": false
+  },
+  {
+    "id": 10,
+    "titulo": "Pixel 11: el chip Tensor G6 y Gemini Nano, en el centro de los nuevos móviles de Google",
+    "resumen": "Google presenta Pixel 11, 11 Pro y 11 Pro XL, con mejores cámaras, más resistencia y funciones de Gemini más proactivas.",
+    "contenido": [
+      "Google presentó la serie Pixel 11, formada por Pixel 11, Pixel 11 Pro y Pixel 11 Pro XL. Los tres llevan el nuevo chip Google Tensor G6, el más rápido y potente de la compañía hasta ahora, que ejecuta la última versión de Gemini Nano directamente en el dispositivo. Google insiste en que estos teléfonos están diseñados para que Gemini ofrezca ayuda personal y ahorre tiempo en el día a día.",
+      "Los modelos Pro estrenan HiLight, un sistema de luces LED alrededor del flash que brilla con distintos patrones para indicar si Gemini está escuchando, pensando o respondiendo, o para avisar de llamadas de contactos importantes. La barra de cámaras del Pixel 11 es un 40 % más delgada, y las pantallas Pro alcanzan 3.600 nits y duplican la resistencia a los arañazos.",
+      "En fotografía, el Pixel 11 incorpora un sensor principal de 48 megapíxeles con un 56 % más de sensibilidad a la luz, y el procesador de imagen del Tensor G6 hace que Visión Nocturna capture hasta cuatro veces y media más rápido. Los teléfonos parten de 256 GB y salieron en reserva a 899, 1.099 y 1.299 dólares, con llegada a las tiendas el 20 de agosto."
+    ],
+    "categoria": "Productos",
+    "etiquetas": [
+      "Pixel",
+      "Tensor G6",
+      "Gemini Nano",
+      "Android"
+    ],
+    "fuente": "Blog de Google",
+    "autor": "Spencer Boone",
+    "fecha": "2026-08-12",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-10.png",
+    "imagenAlt": "Teléfono Google Pixel 11 Pro de color rosado sobre fondo rosa",
+    "imagenCredito": "Google",
+    "urlOriginal": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-11-pro-xl/",
+    "destacada": false
+  },
+  {
+    "id": 11,
+    "titulo": "La app de Gemini supera los 1.000 millones de usuarios mensuales",
+    "resumen": "Sundar Pichai anuncia que Gemini es el producto de Google que más rápido ha crecido y el 14.º en alcanzar esa cifra.",
+    "contenido": [
+      "El consejero delegado de Google, Sundar Pichai, anunció a través de X que la aplicación Gemini ha superado los 1.000 millones de usuarios activos mensuales. Se trata del producto de más rápido crecimiento en la historia de la compañía y del decimocuarto de Google que alcanza esa cifra. Con este hito, Gemini se sitúa a la par de ChatGPT, que llegó a los mil millones de usuarios en junio.",
+      "La cifra se refiere únicamente a la aplicación de Gemini y no incluye a quienes usan la IA de Google a través de otros canales, como el Modo IA del buscador, que por su parte también supera los mil millones de usuarios mensuales. El dato llega poco después de la presentación de resultados del segundo trimestre de 2026, cuando Google habló de más de 950 millones de usuarios mensuales.",
+      "Google también compartió datos sobre cómo se usa el asistente: el 63 % de los usuarios habla directamente con Gemini mediante la voz y la aplicación genera más de 150 millones de imágenes al día. Además, cuenta con más de 100 millones de usuarios activos en iOS. El anuncio se produjo justo antes del evento Made by Google, centrado en nuevas funciones de Gemini para los Pixel."
+    ],
+    "categoria": "Productos",
+    "etiquetas": [
+      "Gemini",
+      "Usuarios",
+      "Sundar Pichai"
+    ],
+    "fuente": "TechCrunch",
+    "autor": "Lauren Forristal",
+    "fecha": "2026-08-11",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-11.jpg",
+    "imagenAlt": "Icono de la aplicación Gemini en la pantalla de un teléfono",
+    "imagenCredito": "Getty Images / TechCrunch",
+    "urlOriginal": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+    "destacada": false
+  },
+  {
+    "id": 12,
+    "titulo": "AMIE, la IA médica de Google, alcanza nivel experto en consultas por videollamada",
+    "resumen": "En un estudio aleatorizado con consultas simuladas, AMIE igualó o superó a médicos de atención primaria al interpretar señales visuales y sonoras.",
+    "contenido": [
+      "Google Research y Google DeepMind han llevado AMIE, su sistema de IA médica de investigación, a las consultas clínicas por vídeo en tiempo real. Hasta ahora funcionaba sobre todo por texto, lo que obligaba a los pacientes a describir por escrito síntomas físicos y hacía perder información diagnóstica. La nueva versión, construida sobre Gemini y Project Astra, percibe señales no verbales y guía exploraciones físicas virtuales.",
+      "Para responder a velocidad de conversación natural y, a la vez, razonar con cuidado, AMIE usa una arquitectura asíncrona con tres agentes especializados que trabajan en paralelo. Esta división del trabajo evita las pausas largas que dañan la confianza del paciente. Los investigadores crearon además una taxonomía de competencias audiovisuales clínicas para evaluar el sistema de forma automática y a gran escala.",
+      "En un estudio aleatorizado con 100 escenarios, 300 consultas en directo con actores que hacían de pacientes y 30 médicos de atención primaria, los evaluadores valoraron bien a AMIE en anamnesis, precisión diagnóstica, tratamiento y comunicación. Los pacientes simulados prefirieron la videollamada frente al chat de texto. Google recuerda que AMIE sigue siendo un proyecto de investigación y que falta trabajo antes de usarlo en clínicas reales."
+    ],
+    "categoria": "Salud",
+    "etiquetas": [
+      "AMIE",
+      "Medicina",
+      "Google Research",
+      "Gemini"
+    ],
+    "fuente": "Google Research",
+    "autor": "Anil Palepu y Mike Schaekermann",
+    "fecha": "2026-08-11",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-12.jpg",
+    "imagenAlt": "Logotipo de Google Research con un mosaico de imágenes científicas",
+    "imagenCredito": "Google Research",
+    "urlOriginal": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
+    "destacada": false
+  },
+  {
+    "id": 13,
+    "titulo": "Gemini Robotics ER 2, un «cerebro» para que los robots planifiquen y colaboren",
+    "resumen": "El nuevo modelo de razonamiento corporizado entiende vídeo en tiempo real, orquesta tareas de varios pasos y coordina a varios robots.",
+    "contenido": [
+      "Google DeepMind ha lanzado Gemini Robotics ER 2, su modelo de razonamiento corporizado más capaz. La compañía lo describe como un cerebro de alto nivel para robots: les permite conversar con personas, entender el mundo físico y planificar tareas de varios pasos, mientras delega el movimiento a modelos de visión, lenguaje y acción de nivel inferior. También puede usar herramientas como la Búsqueda de Google.",
+      "La gran novedad frente a ER 1.6 es la comprensión de vídeo continuo. Gracias a ella, los robots pueden seguir su propio progreso, adaptarse si algo sale mal y saber cuándo pasar al siguiente paso. El modelo se integra en la Gemini Live API mediante un canal de transmisión bidireccional pensado para tareas en las que la latencia es crítica, de modo que el robot piensa mientras actúa.",
+      "Además, Gemini Robotics ER 2 introduce la colaboración entre varios robots, que pueden trabajar juntos en espacios compartidos y completar flujos de trabajo que uno solo no podría realizar. Google afirma que supera a la versión anterior en orquestación de herramientas con controladores reales, simulados y teleoperados. Ya está disponible en la API de Gemini y en Google AI Studio."
+    ],
+    "categoria": "Investigación",
+    "etiquetas": [
+      "Robótica",
+      "DeepMind",
+      "Gemini Robotics",
+      "Agentes"
+    ],
+    "fuente": "Blog de Google",
+    "autor": "Steven Hansen",
+    "fecha": "2026-07-30",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-13.jpg",
+    "imagenAlt": "Imagen de portada de Gemini Robotics ER 2",
+    "imagenCredito": "Google",
+    "urlOriginal": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
+    "destacada": false
+  },
+  {
+    "id": 14,
+    "titulo": "ATLAS, el estudio de Google para entender cómo se usa la IA en la economía",
+    "resumen": "Basado en 15 millones de interacciones anonimizadas, ATLAS analiza cómo se usa la IA de Google en 150 países y 800 ocupaciones.",
+    "contenido": [
+      "Google ha lanzado la primera versión del AI & Economy ATLAS, un estudio continuo y a gran escala sobre cómo usan las personas sus productos de inteligencia artificial en el trabajo y en la vida diaria. La empresa sostiene que los efectos de la IA sobre el empleo y la economía no son automáticos y que la sociedad necesita datos empíricos para tomar decisiones informadas.",
+      "El primer conjunto de datos se basa en 15 millones de interacciones agregadas y anonimizadas con la app Gemini, el Modo IA y la API de Gemini. Abarca más de 150 países, 140 idiomas, 800 ocupaciones y 4.000 tareas. Una de sus conclusiones es que la mayoría de la gente usa la IA para que le ayude con sus tareas más que para delegarlas por completo, en oficios muy distintos.",
+      "Los datos se procesan con OCTO, una herramienta de Google DeepMind que organiza grandes volúmenes de texto no estructurado. Google asegura haber añadido varias capas de privacidad, como eliminar información sensible y desvincular los datos de los registros de usuario. El informe contó con aportaciones de los economistas Diane Coyle y David Autor, y la compañía lo presenta como el comienzo de un proyecto a largo plazo."
+    ],
+    "categoria": "Economía",
+    "etiquetas": [
+      "Economía",
+      "Empleo",
+      "Investigación",
+      "Gemini"
+    ],
+    "fuente": "Blog de Google",
+    "autor": "Zanna Iscenko",
+    "fecha": "2026-07-23",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-14.png",
+    "imagenAlt": "Mapa del mundo en verde con el título AI & Economy Atlas",
+    "imagenCredito": "Google",
+    "urlOriginal": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/",
+    "destacada": false
+  },
+  {
+    "id": 15,
+    "titulo": "AlphaEvolve, el agente de DeepMind que optimiza código, ya está disponible en Google Cloud",
+    "resumen": "El agente evolutivo basado en Gemini llega a todos los clientes de Google Cloud tras resultados notables en Klarna, JetBrains o Kinaxis.",
+    "contenido": [
+      "Google ha anunciado la disponibilidad general de AlphaEvolve en Gemini Enterprise Agent Platform. Este proyecto de investigación de DeepMind, conocido por descubrir nuevos algoritmos de multiplicación de matrices, se convierte así en un producto que cualquier cliente de Google Cloud puede aplicar a su propio código. Se trata de un agente evolutivo: parte de un algoritmo base y genera variantes con modelos Gemini hasta dar con versiones optimizadas.",
+      "El modelo de despliegue separa responsabilidades. La función que puntúa cada candidato se ejecuta en la infraestructura del propio cliente, ya sea un portátil o un superordenador, y la API de AlphaEvolve solo genera los programas. El proceso tiene cuatro pasos: definir el algoritmo inicial y el contexto, establecer la métrica, ejecutar la optimización y desplegar el resultado en producción.",
+      "Google respalda el lanzamiento con casos concretos: Klarna duplicó el rendimiento de su entrenamiento de aprendizaje automático, JetBrains redujo entre un 15 y un 20 % la latencia del autocompletado y Kinaxis mejoró un 22 % la precisión de sus previsiones. InfoQ señala, no obstante, que todas las cifras proceden de Google o de sus clientes y que la herramienta solo funciona en problemas con una métrica clara."
+    ],
+    "categoria": "Productos",
+    "etiquetas": [
+      "AlphaEvolve",
+      "Google Cloud",
+      "DeepMind",
+      "Programación"
+    ],
+    "fuente": "InfoQ",
+    "autor": "Steef-Jan Wiggers",
+    "fecha": "2026-07-19",
+    "tiempoLectura": 2,
+    "imagen": "db/img/noticia-15.jpg",
+    "imagenAlt": "Mano sosteniendo una bombilla luminosa con engranajes junto a un portátil",
+    "imagenCredito": "InfoQ",
+    "urlOriginal": "https://www.infoq.com/news/2026/07/alphaevolve-generally-available/",
+    "destacada": false
+  }
+]

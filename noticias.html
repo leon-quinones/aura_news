@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias | Aura News</title>
+
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <link rel="stylesheet" href="css/noticias.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="contenedor">
+      <div class="header-fila">
+        <a class="logo" href="index.html">Aura<span>News</span></a>
+        <a href="noticias.html"><img src="img/iconos/buscar.svg" alt="Buscar noticias" width="24" height="24"></a>
+      </div>
+
+      <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a class="activo" href="noticias.html">Noticias</a>
+        <a href="guardados.html">Guardados</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="perfil.html">Perfil</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+
+    <section class="encabezado-noticias">
+      <h1>Noticias</h1>
+      <p>Los avances de Google en inteligencia artificial</p>
+    </section>
+
+    <div class="buscador">
+      <img src="img/iconos/buscar.svg" alt="" width="20" height="20">
+      <input type="text" id="buscador" placeholder="Buscar noticias..." aria-label="Buscar noticias">
+    </div>
+
+    <div class="pestanas-categorias" id="categorias"></div>
+
+    <p class="contador-noticias" id="contador">Cargando noticias...</p>
+
+    <section class="lista-tarjetas en-columnas lista-noticias" id="lista-noticias"></section>
+
+    <div class="sin-resultados oculto" id="sin-resultados">
+      <h3>No encontramos noticias</h3>
+      <p>Prueba con otras palabras o elige otra categoría.</p>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <h2>Aura News</h2>
+      <p>El periodismo que respeta tu tiempo. Noticias verificadas, sin clickbait.</p>
+      <ul class="footer-contacto">
+        <li>contacto@auranews.com</li>
+        <li>+57 300 123 4567</li>
+        <li>Bogotá, Colombia</li>
+      </ul>
+      <div class="footer-enlaces">
+        <a href="index.html">Inicio</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="admin.html">Administrar</a>
+      </div>
+      <p class="footer-copy">© 2026 Aura News. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <nav class="menu-inferior">
+    <a href="index.html"><img src="img/iconos/inicio.svg" alt=""><span>Inicio</span></a>
+    <a class="activo" href="noticias.html"><img src="img/iconos/noticias-activo.svg" alt=""><span>Noticias</span></a>
+    <a href="guardados.html"><img src="img/iconos/guardados.svg" alt=""><span>Guardados</span></a>
+    <a href="contacto.html"><img src="img/iconos/contacto.svg" alt=""><span>Contacto</span></a>
+    <a href="perfil.html"><img src="img/iconos/perfil.svg" alt=""><span>Perfil</span></a>
+  </nav>
+
+  <script src="js/datos.js"></script>
+  <script src="js/noticias.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administrar noticias | Aura News</title>
+
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="contenedor">
+      <div class="header-fila">
+        <a class="logo" href="index.html">Aura<span>News</span></a>
+        <a href="noticias.html"><img src="img/iconos/buscar.svg" alt="Buscar noticias" width="24" height="24"></a>
+      </div>
+
+      <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="guardados.html">Guardados</a>
+        <a href="contacto.html">Contacto</a>
+        <a class="activo" href="perfil.html">Perfil</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+
+    <div class="encabezado-simple">
+      <a class="enlace-volver" href="perfil.html">
+        <img src="img/iconos/flecha-atras.svg" alt="" width="24" height="24">
+        Perfil
+      </a>
+      <span>Administrar</span>
+    </div>
+
+    <section class="seccion-titulo">
+      <h1>Gestionar noticias</h1>
+      <p>Publica nuevas noticias o elimina las que ya no quieras mostrar en el feed.</p>
+    </section>
+
+    <div class="admin-columnas">
+
+      <section class="caja-blanca">
+        <h2 class="titulo-con-icono">
+          <img src="img/iconos/agregar.svg" alt="" width="24" height="24">
+          Nueva noticia
+        </h2>
+
+        <form id="formulario-noticia" class="formulario" novalidate>
+          <div class="campo">
+            <label for="titulo">Título *</label>
+            <input type="text" id="titulo" placeholder="Ej: Google presenta un nuevo modelo de IA">
+            <p class="mensaje-error" id="error-titulo"></p>
+          </div>
+
+          <div class="fila-campos">
+            <div class="campo">
+              <label for="categoria">Categoría *</label>
+              <select id="categoria">
+                <option value="">Elige una</option>
+
+              </select>
+              <p class="mensaje-error" id="error-categoria"></p>
+            </div>
+            <div class="campo">
+              <label for="fuente">Fuente *</label>
+              <input type="text" id="fuente" placeholder="Ej: Google Blog">
+              <p class="mensaje-error" id="error-fuente"></p>
+            </div>
+          </div>
+
+          <div class="campo">
+            <label for="imagen">URL de la imagen *</label>
+            <input type="text" id="imagen" placeholder="https://images.unsplash.com/... o db/img/...">
+            <p class="mensaje-error" id="error-imagen"></p>
+          </div>
+
+          <div class="campo">
+            <label for="resumen">Resumen *</label>
+            <textarea id="resumen" class="textarea-corto" placeholder="Descripción breve que aparece en la tarjeta..."></textarea>
+            <p class="contador" id="contador-resumen">0/160</p>
+            <p class="mensaje-error" id="error-resumen"></p>
+          </div>
+
+          <div class="campo">
+            <label for="contenido">Contenido *</label>
+            <textarea id="contenido" placeholder="Texto completo de la noticia..."></textarea>
+            <p class="nota-formulario">Separa los párrafos con una línea en blanco.</p>
+            <p class="mensaje-error" id="error-contenido"></p>
+          </div>
+
+          <button type="submit" class="boton boton-ancho">Publicar noticia</button>
+
+          <p class="mensaje-exito oculto" id="mensaje-exito">Noticia publicada</p>
+        </form>
+      </section>
+
+      <section class="seccion">
+        <div class="titulo-seccion">
+          <h2>Noticias publicadas</h2>
+          <span class="contador-noticias" id="contador-noticias">0</span>
+        </div>
+
+        <div id="lista-admin" class="lista-admin">
+
+        </div>
+
+        <button type="button" id="boton-restaurar" class="boton boton-secundario boton-pequeno">
+          Restaurar noticias originales
+        </button>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <h2>Aura News</h2>
+      <p>El periodismo que respeta tu tiempo. Noticias verificadas, sin clickbait.</p>
+      <ul class="footer-contacto">
+        <li>contacto@auranews.com</li>
+        <li>+57 300 123 4567</li>
+        <li>Bogotá, Colombia</li>
+      </ul>
+      <div class="footer-enlaces">
+        <a href="index.html">Inicio</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="admin.html">Administrar</a>
+      </div>
+      <p class="footer-copy">© 2026 Aura News. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <nav class="menu-inferior">
+    <a href="index.html"><img src="img/iconos/inicio.svg" alt=""><span>Inicio</span></a>
+    <a href="noticias.html"><img src="img/iconos/noticias.svg" alt=""><span>Noticias</span></a>
+    <a href="guardados.html"><img src="img/iconos/guardados.svg" alt=""><span>Guardados</span></a>
+    <a href="contacto.html"><img src="img/iconos/contacto.svg" alt=""><span>Contacto</span></a>
+    <a class="activo" href="perfil.html"><img src="img/iconos/perfil-activo.svg" alt=""><span>Perfil</span></a>
+  </nav>
+
+  <script src="js/datos.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

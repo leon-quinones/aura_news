@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio | Aura News</title>
+
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <link rel="stylesheet" href="css/inicio.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="contenedor">
+      <div class="header-fila">
+        <a class="logo" href="index.html">Aura<span>News</span></a>
+        <a href="noticias.html"><img src="img/iconos/buscar.svg" alt="Buscar noticias" width="24" height="24"></a>
+      </div>
+        <nav class="menu">
+        <a href="index.html" class="activo">Inicio</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="guardados.html">Guardados</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="perfil.html">Perfil</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+
+    <section class="seccion bienvenida">
+      <span class="etiqueta">Bienvenido a Aura News</span>
+      <h1>Noticias claras, sin ruido ni sensacionalismo.</h1>
+      <p>Explora los avances de Google en inteligencia artificial: nuevos modelos, productos e investigación, explicados de forma sencilla. Guarda tus favoritas y arma tu propia portada.</p>
+      <img class="imagen-bienvenida" src="img/bienvenida.jpg" alt="Pila de periódicos sobre una mesa de madera">
+      <div class="fila-botones">
+        <a class="boton" href="noticias.html">Explorar noticias</a>
+        <a class="boton boton-secundario" href="contacto.html">Contactar</a>
+      </div>
+    </section>
+
+    <section class="seccion">
+      <div class="titulo-seccion">
+        <h2>Noticias destacadas</h2>
+        <a href="noticias.html">Ver todas</a>
+      </div>
+      <div id="lista-destacadas" class="lista-tarjetas en-columnas">
+        <p>Cargando noticias...</p>
+      </div>
+    </section>
+
+    <section class="seccion">
+      <div class="banner-cta">
+        <h2>Diseña tu propia portada</h2>
+        <p>Elige hasta 3 temas y recibe solo las noticias que te interesan.</p>
+        <a class="boton boton-blanco boton-ancho" href="perfil.html">Elegir mis temas</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <h2>Aura News</h2>
+      <p>El periodismo que respeta tu tiempo. Noticias verificadas, sin clickbait.</p>
+      <ul class="footer-contacto">
+        <li>contacto@auranews.com</li>
+        <li>+57 300 123 4567</li>
+        <li>Bogotá, Colombia</li>
+      </ul>
+      <div class="footer-enlaces">
+        <a href="index.html">Inicio</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="admin.html">Administrar</a>
+      </div>
+      <p class="footer-copy">© 2026 Aura News. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <nav class="menu-inferior">
+    <a href="index.html" class="activo"><img src="img/iconos/inicio-activo.svg" alt=""><span>Inicio</span></a>
+    <a href="noticias.html"><img src="img/iconos/noticias.svg" alt=""><span>Noticias</span></a>
+    <a href="guardados.html"><img src="img/iconos/guardados.svg" alt=""><span>Guardados</span></a>
+    <a href="contacto.html"><img src="img/iconos/contacto.svg" alt=""><span>Contacto</span></a>
+    <a href="perfil.html"><img src="img/iconos/perfil.svg" alt=""><span>Perfil</span></a>
+  </nav>
+
+  <script src="js/datos.js"></script>
+  <script src="js/inicio.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu perfil | Aura News</title>
+
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <link rel="stylesheet" href="css/perfil.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="contenedor">
+      <div class="header-fila">
+        <a class="logo" href="index.html">Aura<span>News</span></a>
+        <a href="noticias.html"><img src="img/iconos/buscar.svg" alt="Buscar noticias" width="24" height="24"></a>
+      </div>
+
+      <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="guardados.html">Guardados</a>
+        <a href="contacto.html">Contacto</a>
+        <a class="activo" href="perfil.html">Perfil</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor contenedor-perfil">
+
+    <div class="encabezado-perfil">
+      <h1>Tu perfil</h1>
+      <span class="etiqueta">Aura Premium</span>
+    </div>
+
+    <section class="tarjeta-usuario">
+
+      <div class="avatar avatar-grande" id="avatar-inicial">S</div>
+      <div>
+        <h2 class="nombre-usuario" id="nombre-usuario">Sofía Alana</h2>
+        <p class="miembro-desde">Miembro desde septiembre de 2026</p>
+      </div>
+    </section>
+
+    <form id="formulario-perfil" novalidate>
+
+      <section class="seccion">
+        <h2 class="subtitulo">Editar información</h2>
+        <div class="formulario">
+          <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Tu nombre">
+            <p class="mensaje-error" id="error-nombre"></p>
+          </div>
+          <div class="campo">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" placeholder="tucorreo@ejemplo.com">
+            <p class="mensaje-error" id="error-correo"></p>
+            <p class="nota-formulario">Tu correo se utiliza para la sincronización segura de tu feed en múltiples dispositivos.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="seccion seccion-sin-arriba">
+        <h2 class="subtitulo">Tus categorías</h2>
+        <p class="texto-categorias">Selecciona hasta 3 temas de interés para moldear tu portada.</p>
+        <div class="lista-chips" id="lista-categorias">
+
+        </div>
+        <p class="aviso oculto" id="aviso-limite">Límite alcanzado (3 de 3 seleccionados)</p>
+      </section>
+
+      <div class="botones-perfil">
+        <button type="submit" class="boton boton-ancho">Guardar cambios</button>
+        <p class="mensaje-exito oculto" id="mensaje-exito">Cambios guardados</p>
+
+        <a class="enlace-mis-temas oculto" id="enlace-mis-temas" href="noticias.html">Ver noticias de mis temas →</a>
+
+        <a class="boton boton-secundario boton-ancho boton-con-icono" href="admin.html">
+          <img src="img/iconos/noticias.svg" alt="" width="20" height="20">
+          Administrar noticias
+        </a>
+        <button type="button" class="boton boton-peligro boton-ancho" id="boton-cerrar-sesion">Cerrar sesión</button>
+      </div>
+
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <h2>Aura News</h2>
+      <p>El periodismo que respeta tu tiempo. Noticias verificadas, sin clickbait.</p>
+      <ul class="footer-contacto">
+        <li>contacto@auranews.com</li>
+        <li>+57 300 123 4567</li>
+        <li>Bogotá, Colombia</li>
+      </ul>
+      <div class="footer-enlaces">
+        <a href="index.html">Inicio</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="admin.html">Administrar</a>
+      </div>
+      <p class="footer-copy">© 2026 Aura News. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <nav class="menu-inferior">
+    <a href="index.html"><img src="img/iconos/inicio.svg" alt=""><span>Inicio</span></a>
+    <a href="noticias.html"><img src="img/iconos/noticias.svg" alt=""><span>Noticias</span></a>
+    <a href="guardados.html"><img src="img/iconos/guardados.svg" alt=""><span>Guardados</span></a>
+    <a href="contacto.html"><img src="img/iconos/contacto.svg" alt=""><span>Contacto</span></a>
+    <a class="activo" href="perfil.html"><img src="img/iconos/perfil-activo.svg" alt=""><span>Perfil</span></a>
+  </nav>
+
+  <script src="js/datos.js"></script>
+  <script src="js/perfil.js"></script>
+</body>
+</html>

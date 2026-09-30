@@ -1,0 +1,148 @@
+.enlace-volver {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--texto);
+}
+
+.seccion-titulo {
+  padding: 24px 0;
+}
+
+.caja-blanca {
+  padding: 20px 16px;
+  border: 1px solid var(--borde);
+  border-radius: var(--radio-grande);
+  background-color: var(--blanco);
+  box-shadow: var(--sombra-tarjeta);
+}
+
+.titulo-con-icono {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.fila-campos {
+  display: flex;
+  gap: 12px;
+}
+
+.fila-campos .campo {
+  flex: 1;
+  min-width: 0;
+}
+
+.campo textarea.textarea-corto {
+  min-height: 80px;
+}
+
+.contador {
+  margin-top: 4px;
+  font-size: 12px;
+  text-align: right;
+  color: var(--texto-gris);
+}
+
+.contador.excedido {
+  color: var(--rojo);
+  font-weight: 700;
+}
+
+.contador-noticias {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--azul);
+}
+
+.lista-admin {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.fila-admin {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  background-color: var(--blanco);
+}
+
+.fila-admin-imagen {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radio-pequeno);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.fila-admin-texto {
+  flex: 1;
+}
+
+.fila-admin-texto .etiqueta {
+  font-size: 10px;
+}
+
+.fila-admin-titulo {
+  display: block;
+  font-family: var(--fuente-titulos);
+  font-size: 17px;
+  line-height: 21px;
+  color: var(--texto);
+}
+
+.fila-admin-titulo:hover {
+  color: var(--azul);
+}
+
+.boton-eliminar {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid #fecaca;
+  border-radius: 10px;
+  background-color: var(--rojo-claro);
+  cursor: pointer;
+}
+
+.boton-eliminar:hover {
+  background-color: #fee2e2;
+}
+
+.boton-pequeno {
+  padding: 10px 16px;
+  font-size: 12px;
+}
+
+.lista-vacia {
+  text-align: center;
+  padding: 24px 0;
+}
+
+@media (min-width: 768px) {
+  .admin-columnas {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+  }
+
+  .admin-columnas .caja-blanca {
+    flex: 1;
+  }
+
+  .admin-columnas .seccion {
+    flex: 1;
+    padding-top: 0;
+  }
+}
